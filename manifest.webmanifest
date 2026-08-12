@@ -1,0 +1,13 @@
+{
+  "name": "Horarios Phisique Q3 2026",
+  "short_name": "Phisique",
+  "description": "Buscador interactivo de horarios Phisique Wellness Club",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6f4",
+  "theme_color": "#46644d",
+  "icons": [
+    {"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
