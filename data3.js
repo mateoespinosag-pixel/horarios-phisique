@@ -1,0 +1,2 @@
+window.DATA_PARTS = window.DATA_PARTS || [];
+window.DATA_PARTS.push([{"clase":"Meditación","dia":"Lunes","hora":"19:00","sede":"Paseo","duracion":50},{"clase":"Meditación","dia":"Miércoles","hora":"19:00","sede":"Jardín Botánico","duracion":50},{"clase":"Meditación","dia":"Jueves","hora":"07:00","sede":"Jardín Botánico","duracion":50},{"clase":"Meditación","dia":"Jueves","hora":"07:00","sede":"Plaza","duracion":50},{"clase":"Medititación","dia":"Viernes","hora":"19:30","sede":"Quicentro","duracion":50}]);
