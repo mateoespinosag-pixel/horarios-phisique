@@ -1,4 +1,4 @@
-const CACHE='phisique-q3-v2';
+const CACHE='phisique-q4-v3';
 const ASSETS=['./','./index.html','./q4data.js','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',e=>{self.skipWaiting();e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim()});
